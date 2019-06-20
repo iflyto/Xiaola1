@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/PersonStoreLeft"
+        android:name="com.xj.xiaola.BigListLeft"
+        android:layout_width="80dp"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/PersonStoreRight"
+        android:name="com.xj.xiaola.BigListRight"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>
